@@ -1,0 +1,10 @@
+# Data files must be stored byte-for-byte.
+# Without this, Git's autocrlf setting rewrites line endings on checkout,
+# which changes the files that Power Query reads.
+*.csv  -text
+*.xlsx -text
+*.xlsm -text
+*.docx -text
+*.pptx -text
+*.png  -text
+*.gif  -text
